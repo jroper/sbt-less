@@ -3,9 +3,7 @@ import ReleaseStateTransformations._
 import ReleaseKeys._
 
 releaseSettings
-
 publishArtifactsAction := PgpKeys.publishSigned.value
-
 tagName := (version in ThisBuild).value
 
 lazy val scriptedKey = taskKey[Unit]("scripted")

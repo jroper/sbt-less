@@ -6,7 +6,7 @@
 
     var args = process.argv,
         fs = require("fs"),
-        less = require("less"),
+        less = require("less-node"),
         mkdirp = require("mkdirp"),
         path = require("path");
 
